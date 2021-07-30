@@ -70,7 +70,7 @@ button {
   height: 60px;
   width: 200px;
   margin: 2.5px;
-  color: #001E6C;
+  color: #276678;
   border: 3px solid #D3E0EA;
   background-color: #D3E0EA;
   border-radius: 10px;
@@ -84,10 +84,10 @@ button:hover {
   font-size: 20px;
   color: #276678;
   cursor: pointer;
-  border: 3px solid #1687A7;
-  background-color: #1687A7;
+  border: 3px solid #D8E3E7;
+  background-color: #D8E3E7;
   border-radius: 10px;
-  box-shadow: 1px 2px #E6DDC6;
+  box-shadow: 1px 2px #AAAAAA;
 }
 
 /* adding padding to buttons */
