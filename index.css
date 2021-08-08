@@ -1,18 +1,25 @@
 /* importing fonts */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
+html body {
+    background-color: #F6F5F5;
+}
+
 /* background color + site margin */
 html {
   background-color: #F6F5F5;
-  margin: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* name */
 .name {
   color: #276678;
   background-color: #D3E0EA;
-  height: 50px;
-  width: 630px;
+  height: 100px;
+  width: 650px;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 25px;
@@ -35,12 +42,12 @@ html {
 
 /* abt-me picture */
 .photo {
+  border-color: #276678;
   float: left;
   height: 300px;
   width: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px soild #1687A7;
   margin-right: 30px;
 }
 
@@ -60,22 +67,24 @@ html {
 /* nav: buttons */
 .buttons {
   height: 100px;
-  width: 630px;
+  width: 650px;
   margin: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  color: #276678;
   align-items: center;
 }
 
 /* individual button design */
 button {
-  height: 60px;
-  width: 200px;
-  margin: 2.5px;
-  color: #276678;
-  border: 3px solid #D3E0EA;
-  background-color: #D3E0EA;
-  border-radius: 10px;
   font-family: 'Source Sans Pro';
   font-size: 20px;
+  color: #276678;
+  height: 60px;
+  width: 214px;
+  border: 2px solid #D3E0EA;
+  background-color: #D3E0EA;
+  border-radius: 10px;
 }
 
 /* individual button design + hover */
@@ -83,11 +92,13 @@ button:hover {
   font-family: 'Source Sans Pro';
   font-size: 20px;
   color: #276678;
+  height: 60px;
+  width: 214px;
   cursor: pointer;
-  border: 3px solid #D8E3E7;
-  background-color: #D8E3E7;
+  border: 3px solid #d3deea;
+  background-color: #d3deea;
   border-radius: 10px;
-  box-shadow: 1px 2px #AAAAAA;
+  box-shadow: 2px 2px #b0c8da;
 }
 
 /* adding padding to buttons */
@@ -105,7 +116,7 @@ button:hover {
   text-align: center;
   color: #276678;
   background-color: #D3E0EA;
-  width: 630px;
+  width: 650px;
   padding-top: 25px;
   padding-bottom: 25px;
   margin: auto;

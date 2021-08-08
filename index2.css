@@ -1,0 +1,91 @@
+/* ----------------------------------------------------*/
+/* --------------------- resume page ------------------*/
+/* ----------------------------------------------------*/
+
+/* importing fonts */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+html body {
+  background-color: #F6F5F5;
+}
+
+/* background color + site margin */
+html {
+  background-color: #F6F5F5;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header {
+  margin: auto;
+  height: 100px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  color: #276678;
+  background-color: #D3E0EA;
+  width: 540px;
+  height: 100px;
+  padding: 30px;
+  font-family: 'Source Sans Pro';
+  border-radius: 10px;
+}
+
+a {
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+.previous-round {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #276678;
+  background-color: #D3E0EA;
+  width: 100px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Source Sans Pro';
+  border-radius: 10px;
+}
+
+.previous-round:hover {
+  text-decoration-line: none;
+  box-shadow: 2px 2px #b0c8da;
+}
+
+.resume {
+  display: block;
+  margin: auto;
+}
+
+iframe {
+  width: 650px;
+  height: 600px;
+  margin: auto;
+  align-items: center;
+}
