@@ -2,12 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 html body {
-    background-color: #F6F5F5;
+    background-color: #FFFBDA;
 }
 
 /* background color + site margin */
 html {
-  background-color: #F6F5F5;
+  background-color: #FFFBDA;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 30px;
@@ -16,8 +16,8 @@ html {
 
 /* name */
 .name {
-  color: #276678;
-  background-color: #D3E0EA;
+  color: #ED9455;
+  background-color: #FFEC9E;
   height: 100px;
   width: 650px;
   padding-left: 25px;
@@ -42,7 +42,7 @@ html {
 
 /* abt-me picture */
 .photo {
-  border-color: #276678;
+  border-color: #FFBB70;
   float: left;
   height: 300px;
   width: 300px;
@@ -54,7 +54,7 @@ html {
 /* abt-me text */
 .bio {
   font-family: 'Source Sans Pro';
-  color: #276678;
+  color: #ED9455;
   margin: auto;
   height: 300px;
   width: 300px;
@@ -71,7 +71,7 @@ html {
   margin: auto;
   font-family: 'Source Sans Pro';
   font-size: 20px;
-  color: #276678;
+  color: #ED9455;
   align-items: center;
 }
 
@@ -79,11 +79,11 @@ html {
 button {
   font-family: 'Source Sans Pro';
   font-size: 20px;
-  color: #276678;
+  color: #ED9455;
   height: 60px;
   width: 214px;
-  border: 2px solid #D3E0EA;
-  background-color: #D3E0EA;
+  border: 2px solid #FFEC9E;
+  background-color: #FFEC9E;
   border-radius: 10px;
 }
 
@@ -91,14 +91,14 @@ button {
 button:hover {
   font-family: 'Source Sans Pro';
   font-size: 20px;
-  color: #276678;
+  color: #ED9455;
   height: 60px;
   width: 214px;
   cursor: pointer;
-  border: 3px solid #d3deea;
-  background-color: #d3deea;
+  border: 3px solid #ffe373;
+  background-color: #ffe373;
   border-radius: 10px;
-  box-shadow: 2px 2px #b0c8da;
+  box-shadow: 2px 2px #ED9455;
 }
 
 /* adding padding to buttons */
@@ -114,8 +114,8 @@ button:hover {
 .contact-info {
   font-size: 20px;
   text-align: center;
-  color: #276678;
-  background-color: #D3E0EA;
+  color: #ED9455;
+  background-color: #FFEC9E;
   width: 650px;
   padding-top: 25px;
   padding-bottom: 25px;
