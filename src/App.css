@@ -2,18 +2,10 @@ html {
   background-color: #201E43; 
 }
 
-.nav {
-  position:fixed;
-  top:0;
-  width: 100%;
-  z-index: 99999;
-}
-
 .App {
   text-align: center;
-  margin: 5%;
+  margin: 2%;
   color: #EEEEEE;
-  padding-top: 4vh;
 }
 
 .App-logo {
