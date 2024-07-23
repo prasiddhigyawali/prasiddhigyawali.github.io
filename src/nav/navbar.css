@@ -39,3 +39,9 @@ body {
     padding-top: .25rem;
     padding-right: .5rem;
 }
+
+.nav Link:hover,
+.nav Typography:hover
+.nav .nav-item:hover {
+    background-color: #1f5070;
+}

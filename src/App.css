@@ -100,7 +100,8 @@ html {
 
 .project-img {
   max-width: 25%;
-  display: flex;
+  height: auto;
+  object-fit: contain;
 }
 
 .project-demo {
