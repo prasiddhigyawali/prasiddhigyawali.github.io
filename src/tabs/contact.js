@@ -52,7 +52,7 @@ const Contact = () => {
                 </input>
                 <label for="email">Email*</label>
                 <input
-                    type='text'
+                    type='email'
                     id='email'
                     name='email'
                     placeholder="Email"
