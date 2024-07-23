@@ -11,7 +11,7 @@ const About = () => {
             </Helmet>
             <Navbar className='nav'/>
             <div className="App">
-                <h1><ReactTyped strings={["Hello! I'm Prasiddhi Gyawali!"]} typeSpeed={100} backSpeed={100} loop /></h1>
+                <h2><ReactTyped strings={["Hello! I'm Prasiddhi Gyawali!"]} typeSpeed={100} backSpeed={100} loop /></h2>
                 <div className="about">
                     <div className="personal-photo">
                         <img src = "./personal-photo.png" alt = "Prasiddhi Gyawali"/>
