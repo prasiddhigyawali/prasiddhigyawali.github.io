@@ -1,5 +1,19 @@
+html {
+  background-color: #201E43; 
+}
+
+.nav {
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 99999;
+}
+
 .App {
   text-align: center;
+  margin: 5%;
+  color: #EEEEEE;
+  padding-top: 4vh;
 }
 
 .App-logo {
@@ -24,8 +38,173 @@
   color: white;
 }
 
+.about {
+  align-items: center;
+  text-align: center;
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-photo img {
+  border-radius: 15px;
+  max-width: 200%;
+  display: flex;
+  align-items: center;
+  margin: .5%;
+  padding: .25rem;
+}
+
+.personal-info {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+}
+
+.personal-links {
+  gap: 2rem;
+  text-align: center;
+  padding-left: 5%;
+  align-items: center;
+}
+
+.personal-urls-img {
+  height: 1em;
+  margin-right: .25%;
+  align-items: center;
+}
+
+.personal-urls {
+  margin-right: 1%;
+  text-decoration: none;
+  align-items: center;
+}
+
+.experience {
+  text-align: left;
+  border: 2px dashed #EEEEEE;
+  border-radius: 25px;
+  padding: 2%;
+  margin: 2%;
+}
+
+.project {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  border: 2px dashed #EEEEEE;
+  border-radius: 25px;
+  padding: 2%;
+  margin: 2%;
+}
+
+.project-info {
+  text-align: left;
+  margin-right: 2%;
+  align-items: center;
+  color: #EEEEEE;
+}
+
+.project-img {
+  max-width: 25%;
+  display: flex;
+}
+
+.project-demo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.demo-doc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.experience-description {
+  text-align: left;
+}
+
+.contact {
+  min-height: 70vh;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em;
+  border-radius: 10px;
+  border: 2px dashed #EEEEEE;
+}
+
+.contact form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  border: none;
+  padding: .8em;
+  width: 100%;
+  border-radius: 5px;
+  margin: 0.5em 0 1em 0;
+  font-size: 1.1em;
+  background-color: #f0f1fa;
+
+}
+
+.contact label {
+  color: #EEEEEE;
+}
+
+.contact textarea {
+  height: 5em;
+}
+
+.contact button {
+  cursor: pointer;
+  width: 100%;
+  padding: .8em;
+  background-color: #EEEEEE;
+  border: none;
+  border-radius: 5px;
+  color: #134B70;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background-color: #d7d6d6;
+}
+
+@media screen and (max-width: 500px){
+  .contact {
+    font-size: 14px;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+a {
+  color: #81b2be;
 }
 
 @keyframes App-logo-spin {
