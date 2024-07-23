@@ -32,7 +32,7 @@ const About = () => {
                     <br/>
                     <br/>
                     As I look to the future, my ambition is clear: I wish to continue building innovative software 
-                    projects that meaningful impact on the world and make a positive difference in people's lives.
+                    projects that have a meaningful impact on the world and make a positive difference in people's lives.
                     </div>
                 </div>
                 <div className="personal-links">
