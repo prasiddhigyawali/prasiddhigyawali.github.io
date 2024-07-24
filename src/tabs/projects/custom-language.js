@@ -13,8 +13,11 @@ const CustomLanguage = () => {
             <div className="App">
                 <h1>Custom Language</h1>
                 <div className="project-demo">
-                    <iframe title="CustomLanguage" src="../../project-files/CustomLanguage.pdf#view=fit" 
-                    download="CustomLanguage.pdf" className="demo-doc"/>
+                    <object data="../../project-files/CustomLanguage.pdf#view=fit" type="application/pdf" className="demo-doc">
+                        <p>Your web browser doesn't have a PDF plugin.
+                        Instead you can <a href="../../project-files/CustomLanguage.pdf">click here to
+                        download the PDF file.</a></p>
+                    </object>
                 </div>
             </div>
             

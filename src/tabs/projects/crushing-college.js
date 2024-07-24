@@ -13,7 +13,11 @@ const CrushingCollege = () => {
             <div className="App">
                 <h1>CrushingCollege</h1>
                 <div className="project-demo">
-                    <iframe src="../../project-files/CrushingCollege.pdf#view=fit" title="CrushingCollege" className="demo-doc"/>
+                    <object data="../../project-files/CrushingCollege.pdf#view=fit" type="application/pdf" className="demo-doc">
+                        <p>Your web browser doesn't have a PDF plugin.
+                        Instead you can <a href="../../project-files/CrushingCollege.pdf">click here to
+                        download the PDF file.</a></p>
+                    </object>
                 </div>
             </div>
             
