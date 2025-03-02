@@ -12,6 +12,28 @@ const Experience = () => {
             <Navbar className='nav'/>
             <div className="App">
             <h1>Experience</h1>
+            <div className="experience">
+                    <h3><a href='https://www.bcm.edu/' target='_blank' rel='noreferrer noopener'>Baylor College of Medicine</a></h3>
+                    <h4>Software Engineer</h4>
+                    <p className="experience-description">
+                    <strong>Technologies:</strong> C#, ASP .NET Core, Microsoft SQL Server, Bootstrap, JavaScript <br/>
+                    <ul>
+                        <li>
+                            Migrated platforms created in ASP .NET Webforms to ASP .NET Core to maintain consistancy among company projects
+                        </li>
+                        <li>
+                            Connected endpoints to the AWS DynamoDB database and utilized NoSQL, ensuring 
+                            seamless data storage and retrieval.
+                        </li>
+                        <li>
+                            Performed and wrote unit and integration testing 
+                            utilizing PyTest to ensure the reliability and stability of endpoints written for 
+                            the application.
+                        </li>
+                    </ul>
+                    
+                    </p>
+                </div>
                 <div className="experience">
                     <h3>CleanCoderAI (Startup)</h3>
                     <h4>Application Developer/Tester</h4>
