@@ -19,16 +19,16 @@ const Experience = () => {
                     <strong>Technologies:</strong> C#, ASP .NET Core, Microsoft SQL Server, Bootstrap, JavaScript <br/>
                     <ul>
                         <li>
-                            Migrated platforms created in ASP .NET Webforms to ASP .NET Core to maintain consistancy among company projects
+                        Led migration of multiple legacy projects, including black-boxed and ASP WebForms applications, to ASP.NET Core. Utilized C#, jQuery, and Bootstrap to improve
+                        scalability, performance, and user experience.
                         </li>
                         <li>
-                            Connected endpoints to the AWS DynamoDB database and utilized NoSQL, ensuring 
-                            seamless data storage and retrieval.
+                        Spearheaded the anonymization of 2000+ DICOM images using C#, shell scripting, and image anonymization software to support research at leading institutions, including
+                        Harvard and MD Anderson.
                         </li>
                         <li>
-                            Performed and wrote unit and integration testing 
-                            utilizing PyTest to ensure the reliability and stability of endpoints written for 
-                            the application.
+                        Designed and implemented dynamic SSRS reports leveraging complex SQL queries, providing in-depth data analysis and actionable insights to support strategic
+                        decision-making for multiple research groups at Baylor College of Medicine.
                         </li>
                     </ul>
                     
